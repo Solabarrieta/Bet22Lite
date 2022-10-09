@@ -9,7 +9,7 @@ import org.junit.Test;
 import dataAccess.DataAccess;
 import domain.Registered;
 
-public class RankingLortuDAWTest {
+public class RankingLortuDABTest {
 	
 	static DataAccess sut=new DataAccess();
 	
