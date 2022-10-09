@@ -52,7 +52,7 @@
 <properties>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
-        <sonar.organization>jononekin</sonar.organization>
+        <sonar.organization>solabarrieta</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
     <sonar.login>???????</sonar.login> 
 </properties>
@@ -124,9 +124,14 @@
   			 <artifactId>assertj-swing-junit</artifactId>
  			 <version>3.8.0</version>
 		 </dependency>
-		 
 
 
-	</dependencies>
+
+		 <dependency>
+		 	<groupId>org.mockito</groupId>
+		 	<artifactId>mockito-all</artifactId>
+		 	<version>1.9.5</version>
+		 </dependency>
+</dependencies>
 
 </project>
